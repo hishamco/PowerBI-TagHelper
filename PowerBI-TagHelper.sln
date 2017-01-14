@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.25928.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{781755A2-BF44-4FC0-B19C-6D1BDD322C46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerBI-TagHelper", "src\PowerBI-TagHelper\PowerBI-TagHelper.csproj", "{DE14B7C0-7560-42F3-8D32-01F250BF07A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE14B7C0-7560-42F3-8D32-01F250BF07A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE14B7C0-7560-42F3-8D32-01F250BF07A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE14B7C0-7560-42F3-8D32-01F250BF07A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE14B7C0-7560-42F3-8D32-01F250BF07A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE14B7C0-7560-42F3-8D32-01F250BF07A6} = {781755A2-BF44-4FC0-B19C-6D1BDD322C46}
+	EndGlobalSection
+EndGlobal
