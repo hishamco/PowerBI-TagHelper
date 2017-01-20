@@ -60,7 +60,13 @@ namespace PowerBI_TagHelper.TagHelpers
 
             if (WorkspaceCollectionName != null && WorkspaceId != null && AccessKey != null & ReportId != null)
             {
-                var content = $@"<div id=""reportContainer"" style=""width: {Width}px; height: {Height}px""></div>
+                string style = $"width:{Width}px;height:{Height}px";
+                if(context.AllAttributes.TryGetAttribute("style", out var styleAttribute))
+                {
+                    style = $"{styleAttribute.Value};{style}";
+                }
+
+                var content = $@"<div id=""reportContainer"" style=""{style}""></div>
 
    <script>
     $(function() {{
