@@ -19,7 +19,7 @@ This option will let you share and view your Power BI report(s) with authenticat
 
 ```html
 <power-bi workspaceCollectionName="Your WorkspaceCollectionName"
-          workspaceId="Your WoekspaceId"
+          workspaceId="Your WorkspaceId"
           accessKey="Your AccessKey"
           reportId="Your ReportId" />
 ```
